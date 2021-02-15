@@ -1,0 +1,103 @@
+
+
+*******************************************************************************
+Sat Mar 14 16:06:00 2020
+
+
+FIT:    data read from "meritve.dat" u 1:2
+        format = x:z
+        #datapoints = 200
+        residuals are weighted equally (unit weight)
+
+function used for fitting: I_model(U)
+	I_model(U) = A_0 * exp((-(U - a_0) ** 2)/(2 * sigma_0 ** 2)) + A_1 * exp((-(U - a_1) ** 2)/(2 * sigma_1 ** 2))
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Sat Mar 14 16:07:05 2020
+
+
+FIT:    data read from "meritve.dat" u 1:2
+        format = x:z
+        #datapoints = 200
+        residuals are weighted equally (unit weight)
+
+function used for fitting: I_model(x)
+	I_model(x) = A_0 * exp((-(x - a_0) ** 2)/(2 * sigma_0 ** 2)) + A_1 * exp((-(x - a_1) ** 2)/(2 * sigma_1 ** 2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A_0           A_1           a_0           a_1           sigma_0       sigma_1      
+   0 6.7898231773e+01   0.00e+00  3.81e-01    1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00
+  26 2.0993319479e-02  -3.90e-02  3.81e-07    2.004661e+00   4.966905e-01   1.999319e+00  -1.000704e+00   4.979904e-01   1.006284e+00
+
+After 26 iterations the fit converged.
+final sum of squares of residuals : 0.0209933
+rel. change during last iteration : -3.89576e-07
+
+degrees of freedom    (FIT_NDF)                        : 194
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0104025
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.000108213
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A_0             = 2.00466          +/- 0.002963     (0.1478%)
+A_1             = 0.496691         +/- 0.002085     (0.4199%)
+a_0             = 1.99932          +/- 0.0008504    (0.04253%)
+a_1             = -1.0007          +/- 0.004903     (0.4899%)
+sigma_0         = 0.49799          +/- 0.000848     (0.1703%)
+sigma_1         = 1.00628          +/- 0.005912     (0.5875%)
+
+correlation matrix of the fit parameters:
+                A_0    A_1    a_0    a_1    sigma_ sigma_ 
+A_0             1.000 
+A_1             0.027  1.000 
+a_0             0.153 -0.128  1.000 
+a_1             0.015  0.049  0.089  1.000 
+sigma_0        -0.577  0.109 -0.233 -0.096  1.000 
+sigma_1        -0.031 -0.630  0.247 -0.087 -0.225  1.000 
+
+
+*******************************************************************************
+Sat Mar 14 16:07:28 2020
+
+
+FIT:    data read from "meritve.dat" u 1:2
+        format = x:z
+        #datapoints = 200
+        residuals are weighted equally (unit weight)
+
+function used for fitting: I_model(x)
+	I_model(x) = A_0 * exp((-(x - a_0) ** 2)/(2 * sigma_0 ** 2)) + A_1 * exp((-(x - a_1) ** 2)/(2 * sigma_1 ** 2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A_0           A_1           a_0           a_1           sigma_0       sigma_1      
+   0 2.0993319479e-02   0.00e+00  8.33e-01    2.004661e+00   4.966905e-01   1.999319e+00  -1.000704e+00   4.979904e-01   1.006284e+00
+   1 2.0993319476e-02  -1.40e-05  8.33e-02    2.004661e+00   4.966905e-01   1.999319e+00  -1.000704e+00   4.979904e-01   1.006285e+00
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 0.0209933
+rel. change during last iteration : -1.39792e-10
+
+degrees of freedom    (FIT_NDF)                        : 194
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0104025
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.000108213
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A_0             = 2.00466          +/- 0.002963     (0.1478%)
+A_1             = 0.496691         +/- 0.002085     (0.4199%)
+a_0             = 1.99932          +/- 0.0008504    (0.04253%)
+a_1             = -1.0007          +/- 0.004903     (0.4899%)
+sigma_0         = 0.49799          +/- 0.000848     (0.1703%)
+sigma_1         = 1.00628          +/- 0.005912     (0.5875%)
+
+correlation matrix of the fit parameters:
+                A_0    A_1    a_0    a_1    sigma_ sigma_ 
+A_0             1.000 
+A_1             0.027  1.000 
+a_0             0.153 -0.128  1.000 
+a_1             0.015  0.049  0.089  1.000 
+sigma_0        -0.577  0.109 -0.233 -0.096  1.000 
+sigma_1        -0.031 -0.630  0.247 -0.087 -0.225  1.000 
