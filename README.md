@@ -1,1 +1,0 @@
-# FMF-ROVF-Naloge-2020
